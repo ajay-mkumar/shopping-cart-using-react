@@ -6,6 +6,8 @@ import { Product } from "./product";
 
 
 export const Shop=()=>{
+    
+
     return(
         <div className="shop">
             <div className="shoptitle">

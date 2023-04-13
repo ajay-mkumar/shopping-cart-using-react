@@ -5,16 +5,16 @@ import { Shop } from './Pages/shop/shop';
 import { Cart } from './Pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
 
+
 function App() {
   return (
     <div className="App">
-      <ShopContextProvider>
+  <ShopContextProvider >
       <Router>
        <Navbar />
         <Routes>
           <Route path='/' element={<Shop />}/>
-          <Route path='/cart' element={<Cart />} />
-          
+          <Route path='/cart' element={<Cart />} />          
 
         </Routes>
       </Router>
